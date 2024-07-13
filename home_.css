@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    width:100vw;
+    height:100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+}
+body>div{
+    width:60%;
+    margin-bottom: 2%;
+
+}
+.first_div{
+    display:flex;
+    margin-top: 10%;
+}
+.imgOfFirst{
+    margin-left: 5%;
+    width:55%;
+    height:100%;
+}
+h3{
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.content{
+    width:65%;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin:0px;
+}
+button{
+    padding:10px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    background-color: red;
+    border:none;
+}
+.whatWeDo {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatWeDo>div{
+    width:60%;
+    margin:5px;
+}
+.heading{
+    display: flex;
+    align-items: end;
+    margin: 0px;
+}
+.carouselOfImage {
+    display: flex;
+    justify-content: start;
+    width: 60%;
+    height: 300px; /* Adjust as needed */
+    overflow-y: hidden;
+}
+
+.carouselOfImage img {
+    max-height: 300px; /* Ensure images do not exceed this height */
+    width: auto;
+    object-fit: cover;
+    margin-right: 20px; /* Ensure images cover the container */
+}
+.carousel{
+    display: flex;
+    justify-content: start;
+    width:60%;
+    height:20%;
+}
+.carousel a{
+    text-decoration: none;
+    font-weight: 700;
+    height:30px;
+    width:30px;
+    transition: 1s ease-in-out;
+}
+.carousel a:after{
+    color:red;
+    transform: scale(1.05);
+    ;
+}
+.in_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "poppins";
+    width:60%;
+}
+.in_row>h1{
+    margin-right: 20px;
+}
+
+.WHY_CHOOSE_US{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.four_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four_div>svg{
+    color: black;
+    background-color: black;
+    width: 72px!important;
+    height: 72px !important;
+}
+.four_div>div{
+    margin-right: 10px;
+    font-family: "poppins";
+}
+.ourProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divOfOurProject {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    height: auto; /* Set height to auto to adjust based on content */
+    max-height: 100%; /* Ensure it doesn't exceed the parent's height */
+}
+.ghi {
+    width: 55%;
+    margin-right: 5%;
+    object-fit: cover;/* Ensure the image takes up full height of parent */
+}
+.divOfOurProject > div {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.short_paras div:nth-child(even){
+    background-color: red;
+    color: white;
+}
+.short_paras div{
+    padding:10px;
+}
+.short_paras div:nth-child(odd){
+    background-color: rgb(207, 206, 206);
+    
+}
+.short_paras{
+    height: auto;
+    overflow: hidden;
+}
+.div_growth{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.div_growth>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    transition:1s ease-in-out;
+}
+.div_growth>div:hover{
+    box-shadow: 10px 10px 5px #888888;
+    transform:scale(1.05);
+    
+}
+.growth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(243, 242, 242);
+}
+.last{
+    width:100%;
+    background-image: url("https://i.pinimg.com/564x/f4/54/f7/f454f75292f93e2b6c66846a857edf44.jpg");
+    background-color: red;
+    background-blend-mode: darken;
+    padding:7%;
+    position: relative;
+    bottom:0px;
+    margin: 0px;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.divOfOurProject{
+    display: flex;
+    align-items: stretch;
+    height:80%;
+
+}
+.ghi{
+    width:55%;
+    margin-right: 5%;
+    object-fit: cover;
+    min-height:100% !important;
+}
